@@ -15,7 +15,8 @@ which ones it drew from. No cloud. No account. Your notes never leave your phone
 ## What Atlas does
 
 **✍️ Write.** Fast Markdown notes with typed tags (people, projects, ideas), full-text search,
-reminders, pinning, and a daily journal. Capture a thought in one tap from a home-screen widget.
+reminders, pinning, and a daily journal. Two home-screen widgets keep capture instant — **Quick
+Capture** (a new note in one tap) and **Journal** (jump straight to today's entry).
 
 **💬 Ask.** A built-in chat reads across all your notes and answers your questions in plain
 language — then cites the exact notes behind each answer. It's like having a private ChatGPT over
@@ -40,12 +41,12 @@ tracking of what you write, and the whole app works with the internet switched o
 
 The one trade-off is a little patience up front:
 
-> **On first launch, Atlas downloads its AI model (~1.6 GB) over Wi-Fi.**
+> **On first launch, Atlas downloads its AI models (~1.9 GB) over Wi-Fi.**
 
-That model *is* the brain. Because the AI runs on your phone rather than in a data center, the
-brain has to live on your phone too. It downloads once — after that, chat, semantic search, and
-auto-tagging all work fully offline, forever, with zero server round-trips. The model is stored
-alongside your notes, so future app updates stay small and never re-download it.
+Those models *are* the brain. Because the AI runs on your phone rather than in a data center, the
+brain has to live on your phone too. They download once — after that, chat, semantic search, and
+auto-tagging all work fully offline, forever, with zero server round-trips. The models are stored
+alongside your notes, so future app updates stay small and never re-download them.
 
 And your notes are never locked in: you can export any note as plain Markdown whenever you like.
 
@@ -59,7 +60,7 @@ Because the AI runs locally, Atlas needs a reasonably capable phone:
 |---|---|
 | **Android** | 7.0 or newer |
 | **RAM** | 4 GB minimum · 6 GB+ recommended (the model loads into memory while you chat) |
-| **Free storage** | ~3 GB (the app plus its ~1.6 GB language model and ~270 MB search model; your notes are tiny) |
+| **Free storage** | ~3 GB (the app plus its ~1.65 GB language model and ~274 MB search model; your notes are tiny) |
 | **Connection** | Wi-Fi for the one-time model download on first launch |
 
 On older or low-memory phones the AI may load slowly — but notes, search, and the graph still work
@@ -84,7 +85,7 @@ Atlas isn't on the Play Store, so you install the APK yourself — a two-minute,
 ## Updates
 
 Once installed, Atlas keeps itself current. Open **Settings → Check for updates** and it downloads
-and installs new versions in place — your notes and AI model stay exactly where they are.
+and installs new versions in place — your notes and AI models stay exactly where they are.
 
 ---
 
