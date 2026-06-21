@@ -48,7 +48,9 @@ brain has to live on your phone too. They download once — after that, chat, se
 auto-tagging all work fully offline, forever, with zero server round-trips. The models are stored
 alongside your notes, so future app updates stay small and never re-download them.
 
-And your notes are never locked in: you can export any note as plain Markdown whenever you like.
+And your notes are never locked in: back up your **whole notebook** to a single file you control —
+optionally password-encrypted — and restore it on any device (restoring merges, so nothing is ever
+overwritten), or export any individual note as plain Markdown. Whenever you like.
 
 ---
 
@@ -94,3 +96,39 @@ and installs new versions in place — your notes and AI models stay exactly whe
 Hit a bug or have an idea? **[Open an issue](https://github.com/atlasmoth-arc/atlas-releases/issues)** —
 all feedback is welcome. Atlas is a personal, indie project, and real-world reports genuinely shape
 what comes next.
+
+---
+
+## Changelog
+
+A quick glance at what each update brings. Newest first — update in-app via **Settings → Check for updates**.
+
+### v1.2.0
+
+**New**
+- **Backup & restore** your entire notebook to a single portable file. Restoring *merges* — your
+  existing notes are never deleted, and the newer copy wins where they overlap.
+- **Optional password encryption** for backups, so a backup file is safe to keep in Drive, Files, or
+  anywhere else.
+- **Auto-check for updates on launch** (opt-in), with the **download size and speed** shown while an
+  update downloads.
+
+**Improved**
+- **Much lower memory use** — Atlas now frees the AI model whenever it's in the background, so the
+  system no longer kills the app. No more "it restarted when I came back"; it reloads on its own.
+- **Faster, smoother chat** and a more reliable AI loading state.
+
+**Fixed**
+- No more force-close after a backup or restore.
+- Background search indexing no longer slows down an in-progress chat answer.
+- Assorted stability fixes around loading and removing the on-device models.
+
+### v1.1.0
+
+- Reliable in-app updates: signed in-place updates that keep your notes and models intact, plus a
+  faster, repeatable release process behind the scenes.
+
+### v1.0.x
+
+- First release: on-device AI chat over your own notes, Markdown notes with typed tags, semantic
+  search, the knowledge graph, reminders, home-screen widgets, and light/dark themes.
