@@ -103,6 +103,22 @@ what comes next.
 
 A quick glance at what each update brings. Newest first — update in-app via **Settings → Check for updates**.
 
+### v1.3.0
+
+**New**
+- **Spending tracker.** Log expenses in seconds — from your daily note, a new home-screen widget, or
+  straight from chat. A dedicated **Spending** screen shows your week and month totals with a
+  per-category breakdown and recent entries, and the daily Dashboard now has an at-a-glance spending card.
+- **Ask about your money.** Chat answers spending questions in plain language — by date *and* by
+  category ("how much did I spend yesterday?", "how much on food this month?").
+
+**Improved**
+- **Smarter semantic search.** Question-matching is more accurate, and the on-device search model now
+  warms up at launch — so your first question finds the right notes right away instead of falling back
+  to a keyword search.
+- **Unified home-screen widgets.** Quick Capture, Journal, and Log Expense now share one consistent,
+  playful look.
+
 ### v1.2.0
 
 **New**
